@@ -15,9 +15,18 @@
     
 .header__index {
    background-color: rgb(255, 255, 255);
+   
+}
+header {
+    grid-template-rows: 1 / 2;
+}
+main {
+    grid-template-rows: 2 / 3;
 }
 
-
+footer {
+    grid-template-rows: 3 / 4; 
+}
 .header__logo {
     display: block;
     width: 120px;
@@ -239,6 +248,7 @@ li a:hover {
 }
 .main__quienes-somos {
     background-color: #D2C7B5;
+    
 }
 .h2__quienes-somos {
     padding: 20px;
