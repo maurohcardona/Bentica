@@ -33,6 +33,16 @@ footer {
     height: 120px;
     position: relative;
     margin: auto;
+    animation-name: rotacion;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotacion {
+    0% {transform: rotatey(0deg);}
+    10% {transform: rotatey(360deg);}
+    90% {transform: rotatey(360deg);}   
+    100% {transform: rotatey(0deg);}
 }
 .header__ul {
     padding: 10px;
