@@ -16,6 +16,10 @@
     100% {transform: rotatey(0deg);}
 }
 
+.section-index {
+    background-color: #D2C7B5;
+}
+
 @media screen and (min-width: 991px) {
     
     .header__logo {
