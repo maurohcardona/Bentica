@@ -13,20 +13,20 @@
 <body>
     <header>
     <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid sm">
-          <a class="navbar-brand" href="./index.html">
-            <img src="./imagenes/logo-removebg-preview (1).png" class="header__logo" alt="Logo de Bentica">
+        <div class="container-fluid flex-md-column ">
+          <a class="navbar-brand logo" href="./index.html">
+            <img src="./imagenes/logo-removebg-preview (2).png" class="header__logo" alt="Logo de Bentica">
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler align-self-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              <a class="nav-link" href="./quienes-somos.html">Quienes somos</a>
-              <a class="nav-link" href="./productos.html">Productos</a>
-              <a class="nav-link" href="./buscanos.html">Buscanos</a>
-              <a class="nav-link" href="./contacto.html">Contacto</a>
+          <div class="collapse navbar-collapse container-fluid" id="navbarNavAltMarkup">
+            <div class="navbar-nav container-fluid d-flex flex-md-row justify-content-evenly">
+              <a class="nav-link fs-5 active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link fs-5 " href="./quienes-somos.html">Quienes somos</a>
+              <a class="nav-link fs-5 " href="./productos.html">Productos</a>
+              <a class="nav-link fs-5 " href="./buscanos.html">Buscanos</a>
+              <a class="nav-link fs-5 " href="./contacto.html">Contacto</a>
             </div>
           </div>
         </div>
@@ -38,7 +38,7 @@
         </header>
         <main>
             <img src="./imagenes/fondo-index.jpg" class="img-fluid" alt="Imagen de fondo">
-            <section class="container-fluid text-center pt-5 pb-5 fs-3 lh-lg section-index fst-italic " >
+            <section class="container-fluid text-center pt-5 pb-5 fs-5 lh-lg section-index fst-italic " >
                 
                 <p class="section__p">Amamos el mar y nos inspiramos en él. <br><br>
                     En el océano se pueden identificar varias capas, entre ellas la zona bentica.
@@ -48,9 +48,9 @@
             </section>    
                     
         </main>
-        <footer class="footer">
+        <footer class="container-fluid">
             
-                <div class="div__logos">
+                <div class="d-flex flex-column flex-md-row align-items-center justify-content-evenly">
                     <a  href="https://www.instagram.com/benticacosmetica/" target="blank" >
                         <img class="logos" src="./imagenes/logo instagram.png" >
                     </a>
@@ -61,7 +61,7 @@
                          <img class="logos" src="./imagenes/logo-wp.png.png" >
                     </a>
                 </div>
-                <p class="footer__p">
+                <p class="text-center pt-3">
                     BÉNTICA COSMÉTICA <br>
                     ~ sentir el cambio ~<br>
                     Farmacéuticas especialistas en Química Cosmética <br>
