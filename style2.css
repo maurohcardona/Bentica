@@ -26,6 +26,17 @@
     width: 30px;
     height: 30px;
 }
+.fotitos-productos {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.container5 {
+    max-width: 500px;
+}
+    
 
 @media screen and (min-width: 991px) {
     
