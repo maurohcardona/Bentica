@@ -45,9 +45,12 @@
         height: 150px;
         
     }
+    .nav-link {
+        display: flex;
+        transition: transform 1s;
+    }
+    .nav-link:hover {
+        transform: scale(1.2);
+    }
     
-    
-
-
 }
-
