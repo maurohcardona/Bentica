@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column; }
 
+/*mixin*/
 /* maps */
 .header__logo {
   display: block;
@@ -53,6 +54,10 @@
 
 .p {
   font-size: 20px; }
+
+.li-buscanos {
+  display: flex;
+  flex-direction: column; }
 
 @media screen and (min-width: 991px) {
   .header__logo {
