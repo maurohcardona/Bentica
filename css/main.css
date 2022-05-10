@@ -1,3 +1,4 @@
+/* maps */
 .header__logo {
   display: block;
   width: 80px;
@@ -23,7 +24,11 @@
   height: 30px; }
 
 .section-index {
-  background-color: #D2C7B5; }
+  background-color: #D2C7B5;
+  font-size: 20px; }
+
+.imgen-index {
+  width: 100%; }
 
 .fotitos-productos {
   display: block;
@@ -32,8 +37,17 @@
   height: 200px;
   object-fit: cover; }
 
+.p_productos {
+  font-size: 20px; }
+
 .container5 {
   max-width: 500px; }
+
+.h2 {
+  font-size: 24px; }
+
+.p {
+  font-size: 20px; }
 
 @media screen and (min-width: 991px) {
   .header__logo {
