@@ -1,5 +1,14 @@
 $color-principal: #D2C7B5;
 
+/* extend */
+%flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
 /* maps */
 $tamaño-tipografia:(
     titulos: 24px,
@@ -7,3 +16,4 @@ $tamaño-tipografia:(
     parrafos: 20px,
     productos: 20px,
 )
+

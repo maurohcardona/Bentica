@@ -9,3 +9,7 @@
 .p_productos {
     font-size: map-get($tamaño-tipografia, productos);
 }
+
+.li_productos {
+    @extend %flex-column
+}
