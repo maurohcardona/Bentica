@@ -13,3 +13,10 @@
 .li_productos {
     @extend %flex-column
 }
+
+.aside {
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    background-color: blue;
+}
