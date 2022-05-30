@@ -47,10 +47,17 @@
   font-size: 20px; }
 
 .aside {
-  height: 50px;
+  height: 80px;
   width: 100%;
-  margin: 0;
-  background-color: blue; }
+  padding: 10px;
+  background-color: #bfaf95;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .aside p {
+    text-align: justify; }
+  .aside a {
+    text-decoration: none; }
 
 .container5 {
   max-width: 500px; }

@@ -15,8 +15,19 @@
 }
 
 .aside {
-    height: 50px;
+    height: 80px;
     width: 100%;
-    margin: 0;
-    background-color: blue;
-}
+    padding: 10px;
+    background-color: darken( $color-principal, 10%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+        p{
+         text-align: justify;
+        }
+
+            a{
+              text-decoration: none;  
+            }
+}   
